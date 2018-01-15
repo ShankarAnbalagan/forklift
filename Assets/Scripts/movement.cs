@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using CnControls;
 using UnityEngine;
 
 public class movement : MonoBehaviour {
@@ -17,8 +18,8 @@ public class movement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        horizontal = CnInputManager.GetAxis("Horizontal");
+        vertical = CnInputManager.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(horizontal,vertical);
 

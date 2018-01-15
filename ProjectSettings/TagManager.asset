@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 3682145339
+    locked: 0
+  - name: forklift
+    uniqueID: 4002867457
+    locked: 0
